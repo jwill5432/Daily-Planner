@@ -16,6 +16,7 @@ for (let hour = 9; hour <= 17; hour++) {
   
   else if (currentDate.getHours() === hour) {
     timeBlock.id = "currentDay";
+    timeBlock.style.backgroundColor = "#FFFFFF";
   }
 
   timeBlock.innerHTML = `<p>${time.slice(0, 2)}:${time.slice(2)}</p>`;
